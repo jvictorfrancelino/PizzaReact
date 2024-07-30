@@ -1,28 +1,28 @@
-import HomeComponent from "../components/Home/HomeComponent"
-import pizza1 from '../components/Home/Pizza1.jpg';
-import pizza2 from '../components/Home/Pizza2.jpg';
-import pizza3 from '../components/Home/Pizza3.jpg';
+import HomeComponent from '../components/home/HomeComponent';
+import pizza1 from '../components/home/Pizza1.jpg';
+import pizza2 from '../components/home/Pizza2.jpg';
+import pizza3 from '../components/home/Pizza3.jpg';
 
 const HomePage = () => {
     return (
         <>
         <HomeComponent
-            title="Bem vindo à Pizzaria!"
-            descricao="Temos pizza em "
-            imagemUrl={pizza1}
-            imagemAlt="Pizza"
+            title="Welcome"
+            description="Welcome to our pizzeria! Enjoy a cozy atmosphere and delicious pizzas made with love. Join us for a memorable dining experience."
+            imageUrl={pizza1}
+            imageAlt="Pizza"
         />
         <HomeComponent
-            title="Pizzao boa!"
-            descricao="Com queijo"
-            imagemUrl={pizza2}
-            imagemAlt="Pizza" 
+            title="Quality of Our Pizzas"
+            description="Our pizzas are crafted with the finest ingredients, ensuring every bite is a burst of flavor. From classic recipes to unique creations, we guarantee satisfaction."
+            imageUrl={pizza2}
+            imageAlt="Pizza" 
         />
         <HomeComponent
-            title="Pizza barata!"
-            descricao="Com tomate"
-            imagemUrl={pizza3}
-            imagemAlt="Pizza"
+            title="Fast Delivery & Customer Service"
+            description="We prioritize speedy delivery and exceptional customer service. Your satisfaction is our top priority, ensuring you receive hot, fresh pizzas right to your door."
+            imageUrl={pizza3}
+            imageAlt="Pizza"
         />
         </>
     )

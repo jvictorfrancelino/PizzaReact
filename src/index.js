@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Modal from 'react-modal'; // Importe o Modal
 import HomePage from './pages/HomePage';
-import Nav from './components/Nav/Nav';
+import Nav from './components/nav/Nav';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
